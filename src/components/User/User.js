@@ -26,7 +26,17 @@ const User = (props) => {
                 {familiar ? <h5>Kacchi Biriyani Khai...</h5> : <h5>Khuchra Poysa Naai...</h5>}
             </div>
             <div>
-                <h2>Profession</h2>
+                <h2>a lot of things</h2>
+                {
+                    familiar ? <div>
+                        <h3>My title</h3>
+                        <p>This is paragraph...</p>
+                    </div>
+                    : <div>
+                        <h3>Door Closed</h3>
+                        <p>Chabi haraye felsi</p>
+                    </div>
+                }
             </div>
         </div>
     );
