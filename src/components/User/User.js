@@ -11,7 +11,10 @@ const User = (props) => {
     else{
         greeting = <h5>Who the Hell are you? DGM.</h5>
     }
-    
+
+    // 2. ternary operation
+    // condition ? (display this part if condition true) : (if condition false)
+
     return (
         <div>
             <div>
@@ -20,6 +23,7 @@ const User = (props) => {
             </div>
             <div>
                 <h2>Food</h2>
+                {familiar ? <h5>Kacchi Biriyani Khai...</h5> : <h5>Khuchra Poysa Naai...</h5>}
             </div>
             <div>
                 <h2>Profession</h2>
