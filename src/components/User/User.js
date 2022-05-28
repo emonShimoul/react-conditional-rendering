@@ -1,5 +1,6 @@
 import React from 'react';
 import Player from '../Player/Player';
+import Teacher from '../Teacher/Teacher';
 
 const User = (props) => {
     const {familiar} = props;
@@ -38,6 +39,10 @@ const User = (props) => {
                         <p>Chabi haraye felsi</p>
                     </div>
                 }
+            </div>
+            <div>
+                <h2>Profession</h2>
+                {familiar ? <Teacher></Teacher> : <Player></Player>}
             </div>
             <div>
                 <h2>Connection</h2>
